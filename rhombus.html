@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculations</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+
+		<!-- N A V I G A T I O N   B A R -->
+				<ul>
+					<li><a href="calculations.html">Home</a></li>
+					<li><a href="triangle.html">Triangle</a></li>
+					<li><a href="square.html">Square</a></li>
+					<li><a href="circle.html">Circle</a></li>
+					<li><a href="rectangle.html">Rectangle</a></li>
+					<li><a class ="active" href="rhombus.html">Rhombus</a></li>
+					<li><a href="trapezoid.html">Trapezoid</a></li>
+					<li><a href="parallelogram.html">Parallelogram</a></li>
+				</ul>
+		<div class="center">
+			<h1>The area of a RHOMBUS</h1>
+
+			<!--R H O M B U S-->
+			<h3>Enter the <span>LENGTH</span> and <span>WIDTH</span> of your <span>Rectangle</span></h3>
+			<form class="areaSquare">
+				<p><i><strong>p</strong></i>: <input type="number" id="pDiagonal" name="pDiagonal" class="textbox"></p>
+				<p><i><strong>q</strong></i>: <input type="number" id="qDiagonal" name="qDiagonal" class="textbox"></p>
+				<p><i><strong>a</strong></i>: <input type="number" id="areaOfRhombus" name="areaOfRhombus" class="textbox" readonly></p>
+				<button type="button" onclick="findAreaOfRhombus();">Calculate</button>
+				<button type="button" onclick="reset();">Reset</button>
+			</form>
+			<p><strong>The formula to find the area of a Rhombus is: </strong></p>
+			<p>A = (p * q) / 2</p>
+			<p>For example:</p>
+			<img src="images/rhombus.gif" /> <!--http://www.mathsteacher.com.au/year10/ch14_measurement/08_rhombus/Image5321.gif-->
+
+			<p>In this rhombus we know that <strong><i>p</i></strong> is 12cm and <strong><i>q</i></strong> is 18cm.</p>
+			<p> A = (12cm * 18cm) 2 = 108cm</p>
+		</div>
+
+</html>

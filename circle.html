@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculations</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<!-- N A V I G A T I O N   B A R -->
+			<ul>
+				<li><a href="calculations.html">Home</a></li>
+				<li><a href="triangle.html">Triangle</a></li>
+				<li><a href="square.html">Square</a></li>
+				<li><a class ="active" href="circle.html">Circle</a></li>
+				<li><a href="rectangle.html">Rectangle</a></li>
+				<li><a href="rhombus.html">Rhombus</a></li>
+				<li><a href="trapezoid.html">Trapezoid</a></li>
+				<li><a href="parallelogram.html">Parallelogram</a></li>
+			</ul>
+		<div class="center">
+			<h1>The area of a CIRCLE</h1>
+			<!--T R I A N G L E -->
+			<h3> Enter the <span>RADIUS</span> of your <span>Circle</span></h3>
+			<form class="areaOfCircle">
+				<p><i><strong>r </strong></i>= <input type="number" id="radius" name="radius" class="textbox"></p>
+				<p><i><strong>a </strong></i>= <input type="number" id="areaOfCircle" name="areaOfCircle" class="textbox" readonly></p>
+				<button type="button" onclick="findAreaOfCircle();">Calculate</button>
+				<button type="button" onclick="reset();">Reset</button>
+			</form>
+
+			<p><strong>To find the Area of the circle we use this formula: </strong></p>
+			<p>A = &pi; * radius<sup>2</sup></p>
+			<p>or</p>
+			<p>A = &pi; * radius * radius</p>
+
+			<p>For example: </p>
+			<img src="images/circle.gif" /><!--http://www.mathsteacher.com.au/year9/ch14_measurement/09_circle/Image2544.gif-->
+
+			<p>In this case multiply &pi; times 14<sup>2</sup> to find the area.</p>
+		</div>
+	</body>
+</html>

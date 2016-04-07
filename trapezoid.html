@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculations</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+
+		<!-- N A V I G A T I O N   B A R -->
+				<ul>
+					<li><a href="calculations.html">Home</a></li>
+					<li><a href="triangle.html">Triangle</a></li>
+					<li><a href="square.html">Square</a></li>
+					<li><a href="circle.html">Circle</a></li>
+					<li><a href="rectangle.html">Rectangle</a></li>
+					<li><a href="rhombus.html">Rhombus</a></li>
+					<li><a class ="active" href="trapezoid.html">Trapezoid</a></li>
+					<li><a href="parallelogram.html">Parallelogram</a></li>
+				</ul>
+		<div class="center">
+			<h1>The area of a TRAPEZOID</h1>
+
+			<!--T R A P E Z O I D-->
+			<h3>Enter the <span>BASE1</span>,<span> BASE2</span> and <span> HEIGHT</span> of your <span>Trapezoid</span></h3>
+			<form class="areaSquare">
+				<p><i><strong>b1</strong></i>: <input type="number" id="base1" name="base1" class="textbox"></p>
+				<p><i><strong>b2</strong></i>: <input type="number" id="base2" name="base2" class="textbox"></p>
+				<p><i><strong>h</strong></i> : <input type="number" id="heightOfTrapezoid" name="heightOfTrapezoid" class="textbox"></p>
+				<p><i><strong>a</strong></i> : <input type="number" id="areaOfTrapezoid" name="areaOfTrapezoid" class="textbox" readonly></p>
+				<button type="button" onclick="findAreaOfTrapezoid();">Calculate</button>
+				<button type="button" onclick="reset();">Reset</button>
+			</form>
+			<p><strong>The formula to find the area of a Trapezoid is: </strong></p>
+			<p>A = (b1 + b2) * h / 2</p>
+
+			<img src= "images/trapezoid.jpg" /> <!--http://study.com/cimages/multimages/16/trap_ex2.JPG-->
+			<p>In this case you can see that <i><strong>base1</strong></i> = 4ft and <i><strong>base2</strong></i> = 9ft and the <i><strong>height</strong></i> = 6ft.</p>
+			<p>so --> A = (4 + 9) * 6 / 2 = 39ft</p>
+		</div>
+
+</html>

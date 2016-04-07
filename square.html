@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculations</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<!-- N A V I G A T I O N   B A R -->
+			<ul>
+				<li><a href="calculations.html">Home</a></li>
+				<li><a href="triangle.html">Triangle</a></li>
+				<li><a class ="active" href="square.html">Square</a></li>
+				<li><a href="circle.html">Circle</a></li>
+				<li><a href="rectangle.html">Rectangle</a></li>
+				<li><a href="rhombus.html">Rhombus</a></li>
+				<li><a href="trapezoid.html">Trapezoid</a></li>
+				<li><a href="parallelogram.html">Parallelogram</a></li>
+			</ul>
+
+		<div class="center">
+			<h1>The area of a SQUARE </h1>
+			<!-- S Q U A R E -->
+			<h3>Enter the <span>WIDTH</span> and <span>HEIGHT</span> of your <span>Square</span></h3>
+			<form class="areaSquare">
+				<p><i><strong>w</strong></i>: <input type="number" id="width" name="width" class="textbox"></p>
+				<p><i><strong>h</strong></i>: <input type="number" id="height" name="height" class="textbox"></p>
+				<p><i><strong>a</strong></i>: <input type="number" id="area" name="area" class="textbox" readonly></p>
+				<button type="button" onclick="findAreaOfSquare();">Calculate</button>
+				<button type="button" onclick="reset();">Reset</button>
+			</form>
+
+			<p><strong>To find the area of a square we use this formula: </strong></p>
+			<p>A = a<sup>2</sup></p>
+
+			<p>For example: </p>
+			<img src="images/square.jpg" /> <!--http://image.tutorvista.com/cms/images/38/area-of-square.jpg-->
+			<p>All sides of a square are equal. In this case, all of the sides are 5 meters. Therefore it's 5<sup>2</sup> = 25m<sup>2</sup></p>
+		</div> 
+	</body>
+</html>

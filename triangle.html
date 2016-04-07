@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculations</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<!-- N A V I G A T I O N   B A R -->
+			<ul>
+				<li><a href="calculations.html">Home</a></li>
+				<li><a class ="active" href="triangle.html">Triangle</a></li>
+				<li><a href="square.html">Square</a></li>
+				<li><a href="circle.html">Circle</a></li>
+				<li><a href="rectangle.html">Rectangle</a></li>
+				<li><a href="rhombus.html">Rhombus</a></li>
+				<li><a href="trapezoid.html">Trapezoid</a></li>
+				<li><a href="parallelogram.html">Parallelogram</a></li>
+			</ul>
+		<div class="center">
+			<h1>The area of a TRIANGLE</h1>
+			
+			
+			<!--T R I A N G L E -->
+			<h3> Enter the <span>BASE</span> and the <span>HEIGHT</span> of your <span>Triangle</span></h3>
+			<form class="areaOfTriangle">
+				<p><i><strong>b</strong></i>: <input type="number" id="base" name="base" class="textbox"></p>
+				<p><i><strong>h</strong></i>: <input type="number" id="heightOfTriangle" name="height" class="textbox"></p>
+				<p><i><strong>a</strong></i>: <input type="number" id="areaOfTriangle" name="areaOfTriangle" class="textbox" readonly></p>
+				<button type="button" onclick="findAreaOfTriangle();">Calculate</button>
+				<button type="button" onclick="reset();">Reset</button>
+			</form>
+
+			<p><strong>To find the area of a triangle use this formula:</strong></p>
+			<p>A = base * height / 2</p>
+
+			<p>For example: </p>
+			<img src="images/triangle.png" /><!--http://media1.shmoop.com/images/geometry/geo_9_sec_1_graphik_3.png-->
+			<p>In this case you multiply the <i>base</i> by the <i>height</i> and divide it by 2.</p>
+		</div> 
+	</body>
+</html>
