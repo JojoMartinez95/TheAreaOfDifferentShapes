@@ -116,7 +116,7 @@ p {
 	font-family: sans-serif, arial;
 }
 
-.footer {
+#footer {
 	margin-top: 10px;
 	position: relative;
 	font-style: italic;
