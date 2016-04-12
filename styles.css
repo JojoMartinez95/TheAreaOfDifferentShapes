@@ -8,7 +8,6 @@ h1 {
 	background-color: #e9ece5;
 	margin: 0;
 	padding: 10px;
-	width: 100%;
 	}
 
 h3 {
@@ -18,7 +17,7 @@ h3 {
 .center {
 	text-align: center;
 	margin-left:25%;
-	padding:1px 16px;
+	padding:1px;
 	height:1000px;
 }
 
